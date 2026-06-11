@@ -28,11 +28,7 @@ const ReadyToGrowthSection = () => {
           <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row items-stretch sm:items-center gap-3 shrink-0">
             <NavLink
               to="/contact"
-<<<<<<< HEAD
-              className="group inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-100 hover:bg-orange-600 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
-=======
               className="group inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-primary/10 hover:bg-primary-hover transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
             >
               Get to Know Us Better
               <ArrowRight

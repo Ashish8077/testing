@@ -45,11 +45,7 @@ const TestimonialsSection = () => {
         >
           <div className="relative rounded-2xl bg-slate-50 border border-slate-100 px-8 sm:px-14 py-12 text-center shadow-sm">
             {/* Quote icon */}
-<<<<<<< HEAD
-            <div className="absolute -top-5 left-1/2 -translate-x-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-orange-200">
-=======
             <div className="absolute -top-5 left-1/2 -translate-x-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-primary shadow-lg shadow-primary/20">
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
               <Quote size={18} className="text-white fill-white" />
             </div>
 
@@ -108,11 +104,7 @@ const TestimonialsSection = () => {
           <button
             onClick={next}
             aria-label="Next testimonial"
-<<<<<<< HEAD
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 sm:translate-x-6 flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 text-white shadow-md shadow-orange-200 hover:bg-orange-600 transition-all duration-200"
-=======
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 sm:translate-x-6 flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-md shadow-primary/20 hover:bg-primary-hover transition-all duration-200"
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
           >
             <ChevronRight size={18} />
           </button>
@@ -125,18 +117,10 @@ const TestimonialsSection = () => {
               key={i}
               onClick={() => goTo(i)}
               aria-label={`Go to testimonial ${i + 1}`}
-<<<<<<< HEAD
-              className={`rounded-full transition-all duration-300 ${
-                i === current
-                  ? "w-6 h-2 bg-orange-500"
-                  : "w-2 h-2 bg-slate-300 hover:bg-slate-400"
-              }`}
-=======
               className={`rounded-full transition-all duration-300 ${i === current
                   ? "w-6 h-2 bg-primary"
                   : "w-2 h-2 bg-slate-300 hover:bg-slate-400"
                 }`}
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
             />
           ))}
         </div>

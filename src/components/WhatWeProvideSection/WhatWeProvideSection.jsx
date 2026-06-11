@@ -46,11 +46,7 @@ const WhatWeProvideSection = () => {
           </p>
           <NavLink
             to="/contact"
-<<<<<<< HEAD
-            className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-md shadow-orange-100 hover:bg-orange-600 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
-=======
             className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white shadow-md shadow-primary/10 hover:bg-primary-hover transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
           >
             Talk to Us
             <ArrowRight size={14} />

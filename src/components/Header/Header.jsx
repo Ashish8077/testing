@@ -116,11 +116,7 @@ const Header = () => {
                   <>
                     {label}
                     {isActive && (
-<<<<<<< HEAD
-                      <span className="absolute bottom-1 left-4 right-4 h-[2px] bg-orange-500 rounded-full" />
-=======
                       <span className="absolute bottom-1 left-4 right-4 h-[2px] bg-primary rounded-full" />
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
                     )}
                   </>
                 )}
@@ -131,11 +127,7 @@ const Header = () => {
           {/* Desktop CTA */}
           <NavLink
             to="/contact"
-<<<<<<< HEAD
-            className="hidden md:inline-flex px-5 py-2 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-lg transition-colors duration-200"
-=======
             className="hidden md:inline-flex px-5 py-2 text-sm font-semibold text-white bg-primary hover:bg-primary-hover active:bg-primary-active  rounded-lg transition-colors duration-200"
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
           >
             Get in Touch
           </NavLink>
@@ -178,11 +170,7 @@ const Header = () => {
           <NavLink
             to="/contact"
             onClick={() => setMenuOpen(false)}
-<<<<<<< HEAD
-            className="mt-2 px-4 py-2.5 text-sm font-semibold text-center text-white bg-orange-500 hover:bg-orange-600 rounded-lg transition-colors duration-200"
-=======
             className="mt-2 px-4 py-2.5 text-sm font-semibold text-center text-white bg-primary hover:bg-primary-hover rounded-lg transition-colors duration-200"
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
           >
             Get in Touch
           </NavLink>

@@ -7,11 +7,7 @@ const HeroContent = ({ slide }) => {
     return (
         <div className="relative z-10 flex flex-1 flex-col items-center justify-center px-5 sm:px-10 pt-8 pb-28 text-center">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-white/80 backdrop-blur-sm px-4 py-2 text-sm font-semibold tracking-wide text-orange-500 shadow-sm animate-fade-in">
-<<<<<<< HEAD
-                <span className="h-2 w-2 rounded-full bg-orange-500 animate-pulse" />
-=======
                 <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
                 <span className="max-w-[200px] sm:max-w-none truncate sm:whitespace-normal">
                     {slide.label}
                 </span>
@@ -36,11 +32,7 @@ const HeroContent = ({ slide }) => {
             >
                 <NavLink  
                     to={slide.cta.to}
-<<<<<<< HEAD
-                    className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-orange-500 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-200 transition-all duration-200 hover:bg-orange-600 hover:-translate-y-0.5 active:translate-y-0"
-=======
                     className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-primary/20 transition-all duration-200 hover:bg-primary-hover hover:-translate-y-0.5 active:translate-y-0"
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
                 >
                     {slide.cta.label}
                     <ChevronRight
