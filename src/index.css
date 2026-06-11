@@ -1,0 +1,40 @@
+:root {
+  --accent: #0A98D4; /* primary color for accents */
+  --accent-bg: #F8FAFC; /* light background used across the site */
+  --accent-border: #DCEFF6;
+  --text-h: #0F172A;
+  --border: #E6EEF3;
+  --social-bg: #F1F5F9;
+  --shadow: 0 6px 18px rgba(2,6,23,0.08);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: none;
+}
+
+/* Hero slider animations */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes progress {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+.animate-fade-in  { animation: fade-in  0.45s ease both; }
+.animate-slide-up { animation: slide-up 0.45s ease both; }
+
+/* Hide scrollbar on slide strip */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
