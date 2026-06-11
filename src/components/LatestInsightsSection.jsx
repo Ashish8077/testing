@@ -47,7 +47,11 @@ const LatestInsightsSection = () => {
                   e.currentTarget.style.display = "none";
                 }}
               />
+<<<<<<< HEAD
               <span className="absolute top-4 left-4 bg-orange-500 rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
+=======
+              <span className="absolute top-4 left-4 bg-primary rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
                 Featured
               </span>
             </div>
@@ -129,7 +133,11 @@ const LatestInsightsSection = () => {
           </p>
           <NavLink
             to="/blog"
+<<<<<<< HEAD
             className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-md shadow-orange-200 hover:bg-orange-600 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
+=======
+            className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white shadow-md shadow-primary/20 hover:bg-primary-hover transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
           >
             Visit Our Blog
             <ArrowRight size={14} />

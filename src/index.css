@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+:root {
+  --accent: #0A98D4; /* primary color for accents */
+  --accent-bg: #F8FAFC; /* light background used across the site */
+  --accent-border: #DCEFF6;
+  --text-h: #0F172A;
+  --border: #E6EEF3;
+  --social-bg: #F1F5F9;
+  --shadow: 0 6px 18px rgba(2,6,23,0.08);
+}
+
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +19,11 @@ a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* ── Hero slider animations ─────────────────────────────── */
+=======
+/* Hero slider animations */
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
 @keyframes fade-in {
   from { opacity: 0; }
   to   { opacity: 1; }

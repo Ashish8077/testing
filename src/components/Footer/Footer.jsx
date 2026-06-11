@@ -44,7 +44,11 @@ const Footer = () => {
               className={`text-3xl sm:text-4xl font-bold leading-tight ${dark}`}
             >
               Ready to Grow Your{" "}
+<<<<<<< HEAD
               <span className="text-orange-600">Business?</span>
+=======
+              <span className="text-orange-500">Business?</span>
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
             </h2>
             <p className={`mt-4 text-sm leading-relaxed ${muted} max-w-sm`}>
               Contact us to work with a results-driven digital marketing agency.

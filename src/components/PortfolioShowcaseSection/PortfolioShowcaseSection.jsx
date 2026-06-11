@@ -58,11 +58,18 @@ const PortfolioShowcaseSection = () => {
               <button
                 key={filter}
                 onClick={() => setActive(filter)}
+<<<<<<< HEAD
                 className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-200 ${
                   active === filter
                     ? "bg-white text-[#FF5100] shadow-lg"
                     : "bg-white/15 text-white hover:bg-white/25"
                 }`}
+=======
+                className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-200 ${active === filter
+                    ? "bg-white text-[#FF5100] shadow-lg"
+                    : "bg-white/15 text-white hover:bg-white/25"
+                  }`}
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
               >
                 {filter}
               </button>
@@ -75,7 +82,11 @@ const PortfolioShowcaseSection = () => {
       </div>
 
       {/* ── Cards — pulled up, floating over the boundary ── */}
+<<<<<<< HEAD
       <div className="bg-gray-50">
+=======
+      <div className="bg-white">
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
         <div className="mx-auto max-w-[1170px] px-5 sm:px-8 -mt-28 sm:-mt-36 pb-16 sm:pb-24">
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((project) => (
@@ -90,7 +101,11 @@ const PortfolioShowcaseSection = () => {
             </p>
             <NavLink
               to="/contact"
+<<<<<<< HEAD
               className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-orange-200 hover:bg-orange-600 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
+=======
+              className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/20 hover:bg-primary-hover transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
+>>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
             >
               Start a Project
               <ArrowRight size={14} />
