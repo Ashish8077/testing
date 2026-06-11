@@ -2,10 +2,10 @@ import { Phone, Send, ArrowRight } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
-/* Dark navy — readable on sky blue */
-const dark = "text-[#0c2340]";
-const muted = "text-[#0c2340]/60";
-const divider = "border-[#0c2340]/15";
+/* White text on sky blue — high visibility */
+const dark = "text-white";
+const muted = "text-white/80";
+const divider = "border-white/25";
 
 const Footer = () => {
   return (
@@ -51,7 +51,7 @@ const Footer = () => {
             </p>
             <NavLink
               to="/contact"
-              className="mt-7 inline-flex items-center gap-2 rounded-xl bg-[#0c2340] px-7 py-3 text-sm font-semibold text-white hover:bg-[#0c2340]/80 transition-all duration-200 hover:-translate-y-0.5 shadow-lg"
+              className="mt-7 inline-flex items-center gap-2 rounded-xl bg-white px-7 py-3 text-sm font-semibold text-[#6EC1E4] hover:bg-white/90 transition-all duration-200 hover:-translate-y-0.5 shadow-lg"
             >
               Get My Free Proposal
               <ArrowRight size={14} />
@@ -87,7 +87,7 @@ const Footer = () => {
             {/* Contact info */}
             <div className="grid gap-8 sm:grid-cols-2">
               <div className="flex items-start gap-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#0c2340]/10 text-[#0c2340]">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/15 text-white">
                   <Phone size={18} strokeWidth={1.75} />
                 </div>
                 <div>
@@ -102,7 +102,7 @@ const Footer = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#0c2340]/10 text-[#0c2340]">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/15 text-white">
                   <Send size={18} strokeWidth={1.75} />
                 </div>
                 <div>
@@ -150,7 +150,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={label}
-                className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0c2340]/10 text-[#0c2340]/60 hover:bg-[#0c2340] hover:text-white transition-all duration-200"
+                className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/15 text-[#0c2340]/60 hover:bg-white/30 hover:text-white transition-all duration-200"
               >
                 <Icon size={12} />
               </a>

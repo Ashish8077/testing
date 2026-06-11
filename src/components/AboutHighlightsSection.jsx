@@ -56,7 +56,7 @@ const AboutHighlightsSection = () => {
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-green-950/25 to-transparent" />
-                  <span className="absolute top-3 left-3 rounded-full bg-green-600 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white shadow-sm">
+                  <span className="absolute top-3 left-3 rounded-full bg-green-600 px-3 py-1 text-xs font-bold uppercase tracking-widest text-white shadow-sm">
                     {card.badge}
                   </span>
                 </div>
@@ -64,7 +64,7 @@ const AboutHighlightsSection = () => {
                 {/* Body */}
                 <div className="flex flex-1 flex-col p-5 gap-3">
                   <div className="h-[2px] w-8 bg-green-300 rounded-full" />
-                  <h3 className="text-sm font-bold text-green-950 leading-snug group-hover:text-primary transition-colors duration-200">
+                  <h3 className="text-sm font-bold text-[#081a4b] leading-snug group-hover:text-primary transition-colors duration-200">
                     {card.title}
                   </h3>
                   <p className="text-xs leading-relaxed text-slate-500 flex-1 line-clamp-2">

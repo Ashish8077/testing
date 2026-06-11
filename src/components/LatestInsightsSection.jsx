@@ -47,7 +47,7 @@ const LatestInsightsSection = () => {
                   e.currentTarget.style.display = "none";
                 }}
               />
-              <span className="absolute top-4 left-4 bg-primary rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
+              <span className="absolute top-4 left-4 bg-primary rounded-full px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
                 Featured
               </span>
             </div>
@@ -102,7 +102,7 @@ const LatestInsightsSection = () => {
 
                 {/* Body */}
                 <div className="flex flex-1 flex-col p-4 gap-2">
-                  <div className="flex items-center gap-2 text-[11px] text-slate-400">
+                  <div className="flex items-center gap-2 text-xs text-slate-400">
                     <span className="flex items-center gap-1">
                       <User size={10} strokeWidth={1.8} />
                       Admin

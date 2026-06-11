@@ -66,7 +66,7 @@ const WhyChooseUsSection = () => {
                     <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-green-50 text-primary group-hover:bg-green-600 group-hover:text-white transition-all duration-300">
                       <Icon size={22} strokeWidth={1.75} />
                     </div>
-                    <span className="text-4xl font-black text-green-100 select-none leading-none group-hover:text-green-200 transition-colors duration-300">
+                    <span className="text-4xl font-black text-slate-200 select-none leading-none group-hover:text-slate-300 transition-colors duration-300">
                       {String(i + 1).padStart(2, "0")}
                     </span>
                   </div>
@@ -75,7 +75,7 @@ const WhyChooseUsSection = () => {
                   <div className="h-[2px] w-8 bg-green-300 rounded-full" />
 
                   {/* Title */}
-                  <h3 className="text-lg font-bold text-green-950 leading-snug group-hover:text-primary transition-colors duration-200">
+                  <h3 className="text-lg font-bold text-[#081a4b] leading-snug group-hover:text-primary transition-colors duration-200">
                     {reason.title}
                   </h3>
 

@@ -23,7 +23,7 @@ const PortfolioCard = ({ project }) => {
 
         {/* Category badge */}
         <div className="absolute top-4 left-4">
-          <span className="flex items-center gap-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-white">
+          <span className="flex items-center gap-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 px-3 py-1.5 text-xs font-bold uppercase tracking-widest text-white">
             <span className="h-1.5 w-1.5 rounded-full bg-[#FF5100]" />
             {project.category}
           </span>
@@ -37,7 +37,7 @@ const PortfolioCard = ({ project }) => {
 
       {/* Body */}
       <div className="flex flex-col gap-3 p-5">
-        <h3 className="text-[15px] font-bold text-gray-900 leading-snug group-hover:text-[#FF5100] transition-colors duration-300">
+        <h3 className="text-sm font-bold text-gray-900 leading-snug group-hover:text-[#FF5100] transition-colors duration-300">
           {project.title}
         </h3>
         <p className="text-xs leading-relaxed text-slate-500 line-clamp-2">
@@ -45,7 +45,7 @@ const PortfolioCard = ({ project }) => {
         </p>
 
         <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
-          <span className="text-[11px] font-semibold uppercase tracking-widest text-slate-400">
+          <span className="text-xs font-semibold uppercase tracking-widest text-slate-400">
             Case Study
           </span>
           <div className="flex items-center gap-1 text-xs font-semibold text-[#FF5100] group-hover:translate-x-0.5 transition-transform duration-200">
