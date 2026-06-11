@@ -5,9 +5,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-<<<<<<< HEAD
-    extend: {},
-=======
     extend: {
       colors: {
         primary: {
@@ -22,7 +19,6 @@ export default {
         },
       }
     },
->>>>>>> 3f0f9e1 (fix the button colour to blue and backround colour to green)
   },
   plugins: [],
 }
